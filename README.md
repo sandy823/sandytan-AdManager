@@ -43,8 +43,10 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
     - `startDate` (string) : Campaign start date (required)
     - `endDate` (string) : Campaign start date (required)
     - `ambassador` (string) : Campaign ambassador (optional)
-    - `targetAudience` (array) : List of target audiences (optional) <br>
+    - `targetAudience` (array) : List of target audiences (optional) 
     
+    *(empty line below)*
+
     ```javascript
     // Example
     const lvCampaign = AdManager.createAdCampaign({
