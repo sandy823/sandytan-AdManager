@@ -4,7 +4,7 @@
  * Social Media Advertising Manager Module
  * 
  * Allows users to:
- * - Create ad campaign
+ * - Create campaign
  * - Update campaign
  * - Record campaign performance
  * - Calculate CTR (Click-Through Rate)

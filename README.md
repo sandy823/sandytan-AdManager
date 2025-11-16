@@ -9,7 +9,7 @@ It uses **arrays as a dummy database**.
 > **Click-Through Rate**: Measures how effective the ad is at getting clicks from impressions
 
 This module allows you to:
-- Create ad campaign
+- Create campaign
 - Update campaign 
 - Record campagin performance (impressions, clicks)
 - Calculate CTR (Click-Through Rate)
