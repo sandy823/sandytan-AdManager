@@ -45,7 +45,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
     - `ambassador` (string) : Campaign ambassador (optional)
     - `targetAudience` (array) : List of target audiences (optional) 
     
-    *(empty line below)*
+    <!-- This is a comment and will not appear in the rendered README -->
 
     ```javascript
     // Example
