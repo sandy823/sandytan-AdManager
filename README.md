@@ -18,7 +18,7 @@ This module allows you to:
 - Delete campaign
 
 ## Files Included
-- **SandyTan_AdManager.js** : The node module containing 6 functions.
+- **SandyTan_AdManager.js** : The node module containing 7 functions.
 - **app.js** : A Node application to test the module.
 - **README.md** : Instructions on how to use the module.
 
