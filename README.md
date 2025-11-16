@@ -14,6 +14,7 @@ This module allows you to:
 - Record campagin performance (impressions, clicks)
 - Calculate CTR (Click-Through Rate)
 - List all campaigns
+- Search campaigns by name
 - Delete campaign
 
 ## Files Included
@@ -22,13 +23,15 @@ This module allows you to:
 - **README.md** : Instructions on how to use the module.
 
 ## How to Set Up
-1. Create a project folder.
-2. Place the following files inside the folder:
+1. Unzip the project folder.
+2. Ensure the following files is inside the folder:
     - `SandyTan_AdManager.js`
     - `app.js`
     - `README.md`
-3. Open a terminal inside the folder.
-4. Run the test file using: node app / nodemon app
+4. Open the unziped folder in VS Code.
+5. Ensure Node.js is downloaded.
+5. Open a terminal inside the folder.
+6. Run the test file using: node app / nodemon app
 
 ## Functions
 Below are the functions available in **SandyTan_AdManager.js**, along with instrucions and parameter descriptions.
@@ -113,7 +116,18 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
     AdManager.getAllCampaigns().forEach(AdManager.printCampaign);
     ```
 
-**6. deleteCampaign(id)**
+**6. searchCampaignByName(name)**
+- Searches for campaigns by their name (case-insensitive) and auto print results.
+
+  **Parameters**
+    - `name` (string) : The name or partial name to search for (required)
+
+    ### Example  
+    ```javascript
+    AdManager.searchCampaignByName("guc");
+    ```
+
+**7. deleteCampaign(id)**
 - Deletes a campaign from the system.
 
   **Parameters**
@@ -134,3 +148,5 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
 
 ## References
 Meta Ads Manager – https://www.facebook.com/business/tools/ads-manager 
+<br>
+GitHub Docs - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

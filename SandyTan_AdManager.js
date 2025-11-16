@@ -9,6 +9,7 @@
  * - Record campaign performance
  * - Calculate CTR (Click-Through Rate)
  * - List all campaigns
+ * - Search campaigns by name
  * - Delete campaign
  */
 
@@ -105,6 +106,29 @@ module.exports = {
     // Returns a list of all ad campaigns
     getAllCampaigns () {
         return [...campaigns];
+    },
+
+    // Search campaigns by name and auto print results
+    searchCampaignByName (name) {
+        if (!name) {
+            console.log("Please provide a campaign name to search.");
+            return [];
+        }
+
+        const lower = name.toLowerCase();
+
+        const results = campaigns.filter(c => c.name.toLowerCase().includes(lower));
+
+        if (results.length === 0) {
+            console.log(`No campaigns found matching: "${name}"`);
+            return [];
+        }
+
+        console.log(`Found ${results.length} campaign(s) matching "${name}":`);
+
+        results.forEach(c => module.exports.printCampaign(c));
+
+        return results;   // still return results if needed
     },
 
     // Delete a campaign

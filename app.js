@@ -58,6 +58,10 @@ AdManager.printCampaign(gucciCampaign);
 console.log("\nAll Campaigns:");
 AdManager.getAllCampaigns().forEach(AdManager.printCampaign);
 
+// search LOUIS VUITTON campaign
+console.log("\nSearching Campaign(s):");
+AdManager.searchCampaignByName("guc");
+
 // Delete Gucci campaign
 console.log("\nDeleting Gucci campagin...");
 AdManager.deleteCampaign(gucciCampaign.id);
