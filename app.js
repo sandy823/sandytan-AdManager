@@ -11,7 +11,7 @@ console.log("     Starting the AdManager Test     ");
 console.log("====================================");
 
 // Create campaigns
-console.log("\nCreating branded campaigns...");
+console.log("\nCreating campaigns...");
 
 // LV with ambassador & target audience
 const lvCampaign = AdManager.createAdCampaign({
