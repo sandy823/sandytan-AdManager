@@ -44,7 +44,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
     - `budget` (number) : Budget in dollars (required)
     - `status` (string) : e.g., "Active", "Paused" (required)
     - `startDate` (string) : Campaign start date (required)
-    - `endDate` (string) : Campaign start date (required)
+    - `endDate` (string) : Campaign end date (required)
     - `ambassador` (string) : Campaign ambassador (optional)
     - `targetAudience` (array) : List of target audiences (optional) 
     
