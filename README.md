@@ -44,7 +44,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
     - `endDate` (string) : Campaign start date (required)
     - `ambassador` (string) : Campaign ambassador (optional)
     - `targetAudience` (array) : List of target audiences (optional)
-
+    <br>
     ```javascript
     // Example
     const lvCampaign = AdManager.createAdCampaign({
@@ -64,7 +64,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
   **Parameters**
     - `id` (number) : Campaign ID (required)
     - `updates` (object) : Any fields you want to update (required) 
-
+    <br>
     ```javascript
     // Example
     AdManager.updateCampaign(gucciCampaign.id, {
@@ -81,7 +81,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
     - `id` (number) : Campaign ID (required)
     - `impressions` (number) : Number of views to add (default: 0)
     - `clicks` (number) : Number of clicks to add (default: 0)
-
+    <br>
     ```javascript
     // Example
     AdManager.recordCampaignPerformance(gucciCampaign.id, 1900, 3302);
@@ -96,7 +96,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
 
   **Parameters**
     - `campaign` (object) : A campaign object (required)
-
+    <br>
     ```javascript
     // Example
     printCampaign(c) {
@@ -107,7 +107,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
 
 **5. getAllCampaigns()**
 - Returns a list of all campaigns stored in the dummy database.
-
+    <br>
     ```javascript
     // Example
     AdManager.getAllCampaigns().forEach(AdManager.printCampaign);
@@ -118,7 +118,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
 
   **Parameters**
     - `id` (number) : Campaign ID (required)
-
+    <br>
     ```javascript
     // Example
     AdManager.deleteCampaign(gucciCampaign.id);
@@ -126,7 +126,7 @@ Below are the functions available in **SandyTan_AdManager.js**, along with instr
 
 **(Extra Helper) printCampaign(c)**
 - Prints campaign details nicely in the console (used for testing, optional).
-
+    <br>
     ```javascript
     // Example
     AdManager.printCampaign(lvCampaign);
