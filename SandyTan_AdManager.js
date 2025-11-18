@@ -1,5 +1,5 @@
 /**
- * AdManager.js
+ * SandyTan_AdManager.js
  * ------------------------------------------------------
  * Social Media Advertising Manager Module
  * 
